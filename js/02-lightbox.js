@@ -9,7 +9,7 @@ galleryItems.forEach((item) => {
     console.log(item);
     let li = `
     <li class="gallery__item">
-  <a class="gallery__link" href="javascript:void(0)">
+  <a class="gallery__link" href="${item.original}">
     <img
       class="gallery__image"
       src="${item.preview}"
