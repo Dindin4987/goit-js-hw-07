@@ -22,5 +22,5 @@ galleryItems.forEach((item) => {
     gallery.innerHTML += li;
 });
 
-const galleryHandler = new SimpleLightBox(".gallery a", { captionsData: "alt", captionDelay: 250 });
+const galleryHandler = new SimpleLightbox(".gallery a", { captionsData: "alt", captionDelay: 250 });
 galleryHandler.on("show.simplelightbox");
